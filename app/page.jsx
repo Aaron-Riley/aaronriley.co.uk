@@ -1,5 +1,5 @@
-import AboutMe from "./about";
 import Landing from "./landing";
+import AboutMe from "./about";
 
 export default function Home() {
   return (

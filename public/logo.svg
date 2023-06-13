@@ -4,16 +4,12 @@
 </mask>
 <g mask="url(#mask0_135_10)">
 <path d="M52.636 0.0909843L56.429 7.31998L45.847 26.7395L38.2865 26.8675L45.847 39.926H37.785L30.0885 26.7825L20.9915 26.7L24.5975 19.926H41.226L48.8715 6.81348H31.9875L28.189 0.0709839L52.636 0.0909843Z" fill="url(#paint0_linear_135_10)"/>
-<path d="M22.7065 0.0794373L31.401 15.5749L23.798 15.6634L22.9645 13.9084L8.97498 39.9259H0.0709839L22.7065 0.0794373Z" fill="url(#paint1_linear_135_10)"/>
+<path d="M22.7065 0.0794373L31.401 15.5749L23.798 15.6634L22.9645 13.9084L8.97498 39.9259H0.0709839L22.7065 0.0794373Z" fill="#F2F2F2"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_135_10" x1="27.9225" y1="31.85" x2="54.091" y2="3.77899" gradientUnits="userSpaceOnUse">
 <stop offset="0.222619" stop-color="#00FFFF" stop-opacity="0.52"/>
 <stop offset="0.75819" stop-color="#00FFFF"/>
-</linearGradient>
-<linearGradient id="paint1_linear_135_10" x1="25.088" y1="5.54544" x2="4.15598" y2="39.7534" gradientUnits="userSpaceOnUse">
-<stop offset="0.406274" stop-color="#F2F2F2"/>
-<stop offset="1" stop-color="#064331"/>
 </linearGradient>
 </defs>
 </svg>

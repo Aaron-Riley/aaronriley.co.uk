@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body class="bg-neutral-900">
         <nav class="bg-neutral-900 border-gray-200 dark:bg-neutral-900">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center">
+            <a href="#" class="flex items-center mt-5">
               <img src="logo.svg" class="h-8 mr-3" alt="Aaron's Logo" />
             </a>
           </div>
