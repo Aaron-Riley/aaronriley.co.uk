@@ -1,14 +1,22 @@
+
 export default function Landing() {
   return (
     <div class="container mx-auto px-20 bg-neutral-900 md:pt-12">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-5">
-          <h1 class="text-5xl font-medium leading-tight text-gray-100 mt-5 mb-16 text-center">
-            Building the Future with Web Development and AWS
+          <h1 class="text-4xl font-medium leading-tight text-gray-100 mt-5 mb-5 text-center">
+            Building the Future with Business, Web Development and AWS
           </h1>
+          <div class="w-full md:w-1/2 px-4 md:hidden">
+          <img
+            class="rounded-2xl drop-shadow-2xl"
+            src="/headshot.jpg"
+            alt="Flowbite Tailwind CSS UI Kit"
+          />
+        </div>
           <p class="text-gray-100 mb-16 text-center mt-5 text-2xl">
-            I’m Aaron - A Full-Stack Developer with a huge passion for AWS Cloud
-            and upcoming technologies.{" "}
+            I’m Aaron - A Full-Stack Developer with a huge passion for business, AWS Cloud
+            and upcoming technologies.
           </p>
           <div class="flex mt-5 mb-16 text-center place-content-center">
             <a
@@ -37,17 +45,17 @@ export default function Landing() {
             </a>
           </div>
           <a
-            href="#"
-            class="text-gray-100 font-semibold text-2xl mt-5 flex justify-center hover:text-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
+            href="#projects"
+            class="text-gray-100 font-semibold text-xl mt-5 flex justify-center hover:text-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300"
           >
             View My Portfolio
             <i class="fa-solid fa-arrow-down ml-3 mt-2 animate-bounce"></i>
           </a>
           <div class="flex justify-center mt-2">
-            <img src="/hero.svg" alt="Hero underline" width={300} height={10} />
+            <img src="/hero.svg" alt="Hero underline" width={250} height={10} />
           </div>
         </div>
-        <div class="w-full md:w-1/2 px-4 mt-5 mt-5">
+        <div class="w-full md:w-1/2 px-4 mt-5 mt-5 hidden md:block">
           <img
             class="rounded-2xl drop-shadow-2xl"
             src="/headshot.jpg"

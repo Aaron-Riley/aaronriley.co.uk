@@ -1,6 +1,7 @@
 import Landing from "./landing";
 import AboutMe from "./about";
 import Projects from "./projects";
+import Contact from "./contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
      <Landing />
      <AboutMe />
      <Projects />
+      <Contact />
     </main>
   )
 }
