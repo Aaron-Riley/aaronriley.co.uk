@@ -59,7 +59,7 @@ export default function Landing() {
           <img
             class="rounded-2xl drop-shadow-2xl"
             src="/headshot.jpg"
-            alt="Flowbite Tailwind CSS UI Kit"
+            alt="Portrait of Aaron Riley"
           />
         </div>
       </div>
