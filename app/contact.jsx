@@ -21,7 +21,7 @@ export default function Contact() {
       <hr className="border border-white my-4" />
 
       <div className="flex flex-col items-center mt-4 pb-5 md:flex-row md:justify-between">
-        <div className="md:text-white md:text-lg hidden md:block">
+        <div className="md:text-white text-base hidden md:block">
           2023 Aaron Riley. All rights reserved.
         </div>
 
@@ -52,7 +52,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="text-white text-lg text-center md:hidden">
+        <div className="text-white text-sm text-center md:hidden">
           2023 Aaron Riley. All rights reserved.
         </div>
       </div>

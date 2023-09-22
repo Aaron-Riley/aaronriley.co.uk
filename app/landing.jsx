@@ -4,7 +4,7 @@ export default function Landing() {
     <div class="container mx-auto px-20 bg-neutral-900 md:pt-12">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 px-5">
-          <h1 class="text-4xl font-medium leading-tight text-gray-100 mt-5 mb-5 text-center">
+          <h1 class="lg:text-4xl text-2xl font-medium leading-tight text-gray-100 mt-5 mb-5 text-center">
             Building the Future with Business, Web Development and AWS
           </h1>
           <div class="w-full md:w-1/2 px-4 md:hidden">
@@ -14,7 +14,7 @@ export default function Landing() {
             alt="Flowbite Tailwind CSS UI Kit"
           />
         </div>
-          <p class="text-gray-100 mb-16 text-center mt-5 text-2xl">
+          <p class="text-gray-100 mb-16 text-center mt-5 lg:text-2xl text-xl">
             I’m Aaron - A Full-Stack Developer with a huge passion for business, AWS Cloud
             and upcoming technologies.
           </p>

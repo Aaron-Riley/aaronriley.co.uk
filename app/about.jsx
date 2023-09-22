@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="md:container md:mx-auto px-20 bg-neutral-900 md:pt-40 md:pb-20">
+    <div className="md:container md:mx-auto px-8 lg:px-20 bg-neutral-900 md:pt-40 md:pb-20">
       <div className="flex flex-wrap -mx-4 mt-5">
         <div className="w-full md:w-1/2 px-5">
           <h1 className="text-3xl font-medium leading-tight text-gray-100 mt-12 mb-2">
@@ -23,7 +23,7 @@ export default function AboutMe() {
               alt="About me"
             />
           </div>
-          <p className="text-gray-100 text-left text-lg mb-5 max-w-[600px] mt-4">
+          <p className="text-gray-100 text-left text-lg mb-5 max-w-[600px] mt-4 pb-4">
           I'm passionate about many things in life. I love to travel with
             friends, exploring new destinations and creating lasting memories.
             Spending quality time with my son and family is a top priority.
