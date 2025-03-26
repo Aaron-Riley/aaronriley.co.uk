@@ -55,8 +55,8 @@ export default function Hero() {
                 <i className="fa-solid fa-book ml-2"></i>
               </a>
             </div>
-            <div>
-              <a href="#" className="flex justify-center">
+            <div className="relative">
+              <a href="#projects" className="flex justify-center">
                 <img
                   src="/aws-cloud-practitioner.png"
                   width={100}
@@ -65,14 +65,20 @@ export default function Hero() {
                 />
               </a>
             </div>
-            <div>
+            <div className="relative">
               <a href="#projects" className="flex justify-center">
                 <img
-                  src="/aws-solutions-architect.svg"
-                  width={110}
-                  height={110}
-                  alt="AWS Cloud Badge"
+                  src="/aws-solutions-architect.png"
+                  width={100}
+                  height={100}
+                  alt="AWS Solutions Architect Associate Badge"
+                  className="opacity-50"
                 />
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-xs text-white bg-black bg-opacity-50 px-2 py-1 rounded">
+                    Studying
+                  </span>
+                </div>
               </a>
             </div>
           </div>
